@@ -7,15 +7,15 @@
       "settings": {
         "clients": [
           {
-            "id": "f011c012-5f1d-418c-9494-d24d77a9d8f9",
-            "alterId": 520
+            "id": "66b39195-3e6c-4804-b376-81830b928c5e",
+            "alterId": 64
           }
         ]
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-        "path": "/xiaonuo"
+        "path": "/"
         }
       }
     }
