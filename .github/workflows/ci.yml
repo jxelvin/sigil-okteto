@@ -57,7 +57,7 @@ jobs:
     - name: "激活命名空间"
       uses: okteto/namespace@master
       with:
-        name: sigil
+        name: jxelvin
 
     - name: "销毁流程"
       uses: okteto/destroy-pipeline@master
@@ -72,5 +72,5 @@ jobs:
     - name: "上传至okteto"
       uses: okteto/push@master
       with:
-        namespace: sigil
+        namespace: jxelvin
         name: sigil-okteto
