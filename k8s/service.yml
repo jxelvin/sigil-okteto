@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: v2ray-okteto
+  name: sigil-okteto
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP  
   ports:
-  - name: "v2ray-okteto"
+  - name: "sigil-okteto"
     port: 8080
   selector:
-    app: v2ray-okteto
+    app: sigil-okteto
